@@ -223,20 +223,7 @@ curl -X POST http://127.0.0.1:8000/chat \
   -d '{"session_id": "your-session-id", "question": "Summarize the key risks"}'
 ```
 
----
 
-## How It Differs From Other Projects
-
-| Feature | DocMind | Ember | InsightForge |
-|---|---|---|---|
-| Core pattern | RAG | Memory pipeline | Generative pipeline |
-| Input | PDF files | User facts | Any topic |
-| Comparison mode | No | No | Yes |
-| FastAPI | No | Yes | Yes |
-| Streaming | No | No | Yes |
-| File output | No | No | Yes |
-
----
 
 ## Requirements
 
